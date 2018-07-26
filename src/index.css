@@ -1,5 +1,13 @@
+@import "../node_modules/normalize.css/normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Monda');
+h1 {
+  color: #1e90ff;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+label, p {
+  font-family: 'Libre Franklin', sans-serif;
 }

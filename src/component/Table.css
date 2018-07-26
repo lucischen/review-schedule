@@ -1,0 +1,36 @@
+.clearfix:after, .clearfix:before{
+  content:"";
+  display:table;
+}
+.clearfix:after{
+   clear:both;
+}
+.clearfix{
+  *zoom:1;
+}
+
+.container {
+  composes: clearfix;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.box {
+  /*border: 1px solid black;*/
+  width: calc(100% / 7);
+  height: 200px;
+  float: left;
+}
+
+.number {
+  border-bottom: 2px solid #4fa9d3;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.list {
+  color: #1e1e1e;
+  line-height: 1.3;
+}
